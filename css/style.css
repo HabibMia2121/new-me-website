@@ -40,7 +40,7 @@ header {
 }
 .banner-area {
   width: 40%;
-  padding-right: 60px;
+  padding-right: 160px;
 }
 .banner-headline {
   color: #151414;
@@ -83,7 +83,7 @@ header {
 .about-item-content {
   width: 400px;
 }
-.under-list{
+.under-list {
   padding-left: 0px;
 }
 .list-item {
@@ -99,15 +99,106 @@ header {
 /* ---------about section style end here--------- */
 
 /* ---------plans section style start here--------- */
-.plans-title{
-    text-align: center;
-    padding-bottom: 50px;
+.plans-title {
+  text-align: center;
+  padding-bottom: 50px;
 }
-.plans-container{
-    display: flex;
-    justify-content: space-around;
-    padding: 0 140px;
+.plans-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 130px;
 }
 /* ---------plans section style end here--------- */
 
+/* ---------feature section style start here--------- */
+/* linear-gradient(45deg,rgb(5, 5, 5) ,rgb(45, 45, 45)) */
+.feature-section {
+  background-image: url('../images/gradient2.png'), url('../images/watch.png');
+  background-repeat: no-repeat;
+  margin: 80px 140px;
+  border-radius: 5px;
+}
+.feature-content {
+  padding: 40px 380px 40px 60px;
+}
+.feature-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.btn {
+  background: #fff;
+  color: #f15b22;
+  padding: 18px 30px;
+}
+/* ---------feature section style end here--------- */
 
+/* ---------footer section style end here--------- */
+
+/* ---------footer section style start here--------- */
+footer {
+  background: #151414;
+  color: #fff;
+  padding-bottom: 40px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.foot-info {
+    width: 347px;
+    margin: 80px 218px 80px 153px;
+}
+.foot-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.foot-decs {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.foot-form {
+  padding-right: 200px;
+}
+.oder-list {
+  padding-left: 0px;
+}
+.oder-list > li {
+  font-size: 12px;
+  list-style: none;
+  line-height: 25px;
+}
+.social-link > a {
+  text-decoration: none;
+}
+.social-link > a > img {
+  width: 37px;
+  margin-right: 5px;
+}
+.foot-form-title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.foot-form{
+   margin-top:-50px;
+}
+form > input{
+    background:#151414;
+    width: 250px;
+    color: #fff;
+    border:1px solid #fff;
+    padding: 20px 20px 20px 20px;
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+/* ---------footer section style end here--------- */
